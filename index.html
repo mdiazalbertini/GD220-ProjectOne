@@ -1,38 +1,264 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>James & Joyce</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+    <style type="text/css">
+       
+    body {
+		padding: 0;
+		margin: 0;   
+		text-align: center;
+	    background-color: #8E8E8D;
+    }   
+    
+        .name {
+	    	 font-family: Mrs.weaves;
+		    font-size: 70pt;
+		    color:#C04040;
+	    }
+    #container {
+    	width: 300px;
+	    margin: 0 auto;
+	    text-align: left;
+    }
+    
+    #beer {
+	    display: none; /* hiding */
+    }
+    
+   .about {
+	    display:none;
+    }
+	   
+	
+    
+    
+    #Phone {
+    	margin: 0 auto;
+    	width: 229px;
+	    background: transparent url(Phone.png) center top no-repeat;
+    }
+    
+    .second {
+	    display:none; 
+    }
+    
+  
+    
+    .nav{
+    display:none;
+	font-family: Futura;
+    font-size: 20pt;
+    color:white;
+  
+    }
+    
+    h1 {
+    font-fmaily: Futura;
+    font-size: 72px;
+    margin-top: 10px;
+    margin-left: 10px:
+    margin-right: 10px;
+    color: #C04040;
+  
+}
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+h2 { 
+    font-family:'Medium' , Futura;
+    font-size:8px;
+    color:#9A9A9A
+   
+}
+h3 { font-family:'Medium' , Futura;
+     font-size:8px;
+     color: #BFBDBD;
+    
+}
 
-        <link rel="stylesheet" href="css/framework.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
+h4 { font-family:'Medium' , Futura;
+     font-size:10px;
+     color: #F3EFF0
+}   
 
-        <!-- Add your site or application content here -->
-        <p><h1> James & Joyce </h1>			<h2>About</h2>			<h3> Location</h3>			<h4>Menu</h4>			<h5>Music</h5>				<h5> Listings</h5><p><ul>Friday/September 14/Will Hill,, Saturaday/September 15/Tommy Rothman, September 21/Ed and Frank, September 22/Kevin Buttry and Friend, September 28/ James Gallagher and Off The Boat</ul><p><h6>Contact</h6><p> Address: 616 S President St Baltimore, MD 21202</p><p> Hours: Monday ? Sunday, 11:00 am- 2:00 am </p><p> Phone (410) 727-5107 <p>				<p> Email: thejamesjoyce@yahoo.com </p>			<h7> About </h7>
+h5 { float: center; 
+	font-family: Futura;
+     font-size: 40px;
+     color: #686465;
+ 
+	 background-color: #E3E98C;
+	 margin-bottom: -22px;
+     
+}
 
-			<p>The James Joyce management and staff would like to introduce and welcome you to "Baltimore's Home of Irish Hospitality". As Harbor East blossoms and grows, we are the place where local residents and business people can come to relax. Our cozy, inviting atmosphere is the ideal place to sit back and enjoy a pint with an authentic hearty meal.
-The James Joyce is a traditional Irish Pub and Restaurant, which was designed and built in Ireland and shipped over in the fall of 2002, where it was then fitted on site. Named after the famous Irish author and poet, our pub offers fast and friendly service.
-Conveniently located at the end of Interstate 83 South we are the ideal place to drop off your tour guests for a lovely meal. Arrangements have been made for any busses that will need to park during the visit. The surrounding area is rich in history and culture, with plenty to see.
-Once inside the restaurant, you will be transported across miles of ocean, to a charming and inviting family setting. Whether you are pulling up a barstool and engaging in conversation with your co-workers; or pulling up a chair at a happy family gathering and being warmed by the fire, we have whatever is needed to make you next tour a special one. </p>
+h6 { font-family: Futura;
+	font-size: 25px;
+	color:231F20#
+}
 
-<h1>Menu</h1>
+   #manface {
+		    
+			display:none;
+	    }
+	    
+	
+   
 
-
-<h2><strong>Lunch</strong></h2>
+    
+    
+    
+    
+    
+    @media screen and (min-width: 720px){
+	    
+	    #container {
+		    width: 978px;
+	    }
+	    
+  
+	    
+	    #header {
+		    border-top:10px solid #000;
+		    overflow: hidden;
+	    }
+	    
+	    .name {
+	    	position: relative;
+		    float: left;
+		    width: 324px;
+		    height:336px;
+		    padding:30px;
+		    background-color: #E3E98C;
+		 
+		    font-family: Mrs.weaves;
+		    font-size: 70pt;
+		    color:#C04040;
+	    }
+	    
+	    #manface {
+		    
+			display: block;
+			position: absolute;
+			right: 20px;
+			bottom: 50px;
+	    }
+	    
+	    #beer {
+	    	display: block;
+		    float: right;
+		    width: 594px;
+	    }
+	    
+	    .second {
+	    	display: block;
+		    float: left;
+		    width: 100%;
+		    color: #fff;
+		    background-color: #000;
+	    }
+	    
+	    #phone {
+		    display: none;
+	    }
+	    
+	    .about {
+		    display: block;
+		    padding:30px;
+		    margin-bottom: 30px;
+		    background-color: black;
+		    font-family: Futura;
+		    font-size: 15pt;
+		    text-align: center;
+		    color:white;
+		    
+		}
+		
+		.small {
+			display: none;
+		}
+		
+		
+		.nav {
+			display: block;
+			float: left;
+			width: 100%;
+			padding: 15px 0;
+		}
+		
+		.nav div {
+			display: inline-block;
+			margin-left: 66px;
+			padding: 15px; 
+			color: #fff;
+			background: #000;
+		}
+	    
+	    .nav div:first-child {
+	    	margin-left: 0;
+	    }
+    }
+    
+       
+</style>
+<title> html-James & Joyce </title>
+</head>
+<body>
+<div id="container">
+    
+    <div id="header">
+    	<div class="name">
+		   JAMES<br>AND<br>JOYCE
+		   <img src="manface.png" id="manface">
+		 </div>
+   
+		   <div id="beer">
+		        	<img src="Beer.png">
+		   </div>
+       
+       
+		    <div class="second">
+		        IRISH PUB AND RESTAURANT
+		    </div>
+     
+		 <div class="nav">
+		     <div class="home">
+		     	HOME
+		     </div>
+	     
+	     	<div class="menu">
+	     	MENU
+	     	</div>
+	     	<div class="contact">
+	     	CONTACT
+	     	</div>
+	     	<div class="location">
+	     	LOCATION
+	     	</div>
+	     	<div class="music">
+	     	MUSIC
+	     	</div>
+		 </div>
+     	<div id="Phone">
+         <h2> <center>616 S. President Street, Baltimore, MD 21202</center></h2>
+            <h3> <center> Hours: Monday-Sunday, 11:00 am-   2:00 am</center></h3>
+                <h4><center>Phone: 4437197284</center></h4>                 
+                <h5><strong><center>MENU</center></strong></h5>
+         </div>
+    </div>
+    
+    <div class="about">
+        <p>The James Joyce management and staff would like to introduce
+	        and welcome you to "Baltimore's Home of Irish Hospitality". 
+	        As Harbor East blossoms and grows, we are the place where 
+	        local residents and business people can come to relax. 
+	        Our cozy, inviting atmosphere is the ideal place to sit back 
+	        and enjoy a pint with an authentic hearty meal</p>
+     </div>
+        
+        
+            
+  
+         <div class="small">
+         
+       
+        <h6><strong><center>Lunch</center></strong></h6>
 
 <p><strong>Artichoke and Crab Dip</strong></p>
 <p>Crabmeat, globe artichokes, cream cheese, parmesan cheese, crusty sourdough bread. $8.95</p>
@@ -45,15 +271,15 @@ Once inside the restaurant, you will be transported across miles of ocean, to a 
 <p><strong>Mussels James Gate</strong></p>
 <p>Guinness Stout, shallots, garlic, tomato, and parsley. $9.95</p>
 <p><strong>Smoked Salmon Brochette</strong></p>
-<p>Chilled smoked salmon, brown bread, cr�me fra�che, capers, onions, baby house salad tossed in balsamic vinaigrette. $8.95</p>
+<p>Chilled smoked salmon, brown bread, crème fraîche, capers, onions, baby house salad tossed in balsamic vinaigrette. $8.95</p>
 <p><strong>Calamari</strong></p>
 <p>Fiery mix of cherry peppers, marinara sauce. $9.95</p>
 <p><strong>Irish New Potato Nachos</strong></p>
 <p>Cheddar cheese sauce, tomatoes, jalapeno peppers, green onions, bacon bits, side of sour cream. $8.95</p>
 <p><strong>Fish Tacos</strong></p>
-<p>Three soft corn tortillas, blackened Tilapia, shredded Iceberg lettuce, c	ilantro, onion, radishes, and topped with chipotle ranch. $9.95</p>
+<p>Three soft corn tortillas, blackened Tilapia, shredded Iceberg lettuce, c    ilantro, onion, radishes, and topped with chipotle ranch. $9.95</p>
 
-<h2><strong> Soups and Salads </h2></strong>
+<h6><strong><center> Soups and Salads </center></h6></strong>
 
 <p><strong>Irish Potato Soup</strong></p>
 <p>Pureed potatoes, onions, leeks, chicken stock. $4.50</p>
@@ -68,7 +294,8 @@ Once inside the restaurant, you will be transported across miles of ocean, to a 
 <p><strong>Spicy Chicken Tender Salad</strong></p>
 <p>Mixed greens, cucumber, tomato, red onion, bleu cheese dressing. $11.95</p>
 <p><strong>Spinach & Strawberry Salad</strong></p>
-<p>Fresh spinach, yellow tomatoes, bleu cheese crumbles, fresh strawberries, bacon bits, bacon dressing. $7.95?Add Grilled Chicken for $3.50 Add Grilled Salmon for $5</p>
+<p>Fresh spinach, yellow tomatoes, bleu cheese crumbles, fresh strawberries, bacon bits, bacon dressing. $7.95
+Add Grilled Chicken for $3.50 Add Grilled Salmon for $5</p>
 <p><strong>Chicken & Feta Cheese Salad</strong></p>
 <p>Granny Smith apples, feta cheese, mixed greens, candied almonds, raspberry vinaigrette dressing. $11.95</p>
 <p><strong>Bleu Cheese Wedge</strong></p>
@@ -83,7 +310,8 @@ Once inside the restaurant, you will be transported across miles of ocean, to a 
 <p>Grilled Atlantic salmon filet, mixed greens, cherry tomatoes, hard-boiled egg, onion relish dressing. $11.95</p>
 <p>Dressings: Balsamic Vinaigrette, Buttermilk Ranch, Oil & Vinegar, Bleu Cheese, Green Garlic, Onion Relish, Raspberry Vinaigrette, Cilantro Jalapeno, 1000 Island</p>
 
-<h2><strong> Sandwiches </strong></h2>
+
+<h6><strong><center> Sandwiches </center></strong></h6>
 
 <p>All sandwiches are served with your choice of seasoned fries, potato soup, or soup of the day. </p>
 <p><strong>Vegetarian</strong></p>
@@ -95,7 +323,7 @@ Once inside the restaurant, you will be transported across miles of ocean, to a 
 <p><strong>Chicken Club</strong></p>
 <p>Lettuce, tomato, egg, bacon, and mayonnaise. $9.95</p>
 <p><strong>Steak Sandwich</strong></p>
-<p>Saut�ed onions, red and green peppers, provolone cheese, lettuce, tomato, sub roll. $9.95</p>
+<p>Sautéed onions, red and green peppers, provolone cheese, lettuce, tomato, sub roll. $9.95</p>
 <p><strong>Chesapeake Crab Cake Sandwich</strong></p>
 <p>Brioche bun, homemade tartar sauce. $12.95</p>
 <p><strong>French Dip</strong></p>
@@ -105,13 +333,17 @@ Once inside the restaurant, you will be transported across miles of ocean, to a 
 <p><strong>Chicken Breast Sandwich</strong></p>
 <p>Brioche bun, lettuce, tomato. $9.95</p>
 <p><strong>Beef Burger</strong></p>
-<p>100% ground Angus beef, brioche bun, lettuce, raw onion, tomato. $9.95 Make it a ?Marylander? Add a Crab Cake for $9.95</p>
-<h2><strong> Main Menu</strong></h2>
+<p>100% ground Angus beef, brioche bun, lettuce, raw onion, tomato. $9.95 Make it a “Marylander” Add a Crab Cake for $9.95</p>
+
+<h6><strong> <center>Main Menu</center></strong></h6>
 
 <p><strong>Pan Seared Swordfish</strong></p>
-<p>Pan seared Swordfish with a spinach and?bleu cheese crust over mashed potatoes and chefs vegetables. $16.95</p>
+<p>Pan seared Swordfish with a spinach and
+bleu cheese crust over mashed potatoes and chefs vegetables. $16.95</p>
 <p><strong>Vegetable & Anchovy Fettuccine</strong></p>
-<p>Fettuccine, onions, black olives, anchovies, capers, crushed red pepper, tossed in marinara sauce, served with a garlic crustini. $13.95?Add Chicken for $3.50 Add Shrimp for $5</p><p><strong>Grilled Sea Scallops</strong></p>
+<p>Fettuccine, onions, black olives, anchovies, capers, crushed red pepper, tossed in marinara sauce, served with a garlic crustini. $13.95
+Add Chicken for $3.50 Add Shrimp for $5</p>
+<p><strong>Grilled Sea Scallops</strong></p>
 <p>Grilled sea scallops skewered, over jasmine rice with a lemon caper butter sauce and chefs vegetables. $19.95</p>
 <p><strong>Shrimp Skewers</strong></p>
 <p>Grilled shrimp skewered, over jasmine rice with a spicy chipotle dipping sauce and chefs vegetables. $17.95</p>
@@ -128,19 +360,21 @@ Once inside the restaurant, you will be transported across miles of ocean, to a 
 <p><strong>Fish & Chips</strong></p>
 <p>Fresh cod, fries and tartar sauce. $14.95</p>
 <p><strong>Irish Lamb Stew</strong></p>
-<p>Lamb, carrots, cabbage, potatoes, chef?s secret herbs. $13.95</p><p><strong>Shepherd?s Pie</strong></p><p>100% fresh ground beef, carrots, topped with creamy mashed potatoes. $11.95</p><p><strong>Corned Beef & Cabbage</strong></p><p>Tender corned beef, mashed carrots, parsnips, creamy mashed potatoes, Irish mustard parsley cream sauce. $13.95</p>.</p>
+<p>Lamb, carrots, cabbage, potatoes, chef’s secret herbs. $13.95</p>
+<p><strong>Shepherd’s Pie</strong></p>
+<p>100% fresh ground beef, carrots, topped with creamy mashed potatoes. $11.95</p>
+<p><strong>Corned Beef & Cabbage</strong></p>
+<p>Tender corned beef, mashed carrots, parsnips, creamy mashed potatoes, Irish mustard parsley cream sauce. $13.95</p>
+</div>
+        
+        
+    
+       
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+  
+             
+   
+            
+             
+      
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </body>
-</html>
